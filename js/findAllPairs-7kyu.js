@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/5c55ad8c9d76d41a62b4ede3/train/javascript
 
-function duplicates(array){
+function duplicates(array) {
 
     const pairs = []
     const tally = {}
@@ -19,7 +19,7 @@ function duplicates(array){
             tally[e] = 0
         } 
     })
-    console.log('pairs', pairs)
+    
     return pairs.length
 }
 
